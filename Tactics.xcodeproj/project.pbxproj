@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D302C757141327BF00D76733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C756141327BF00D76733 /* UIKit.framework */; };
+		D302C759141327BF00D76733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C758141327BF00D76733 /* Foundation.framework */; };
+		D302C75B141327BF00D76733 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C75A141327BF00D76733 /* CoreGraphics.framework */; };
+		D302C75D141327BF00D76733 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C75C141327BF00D76733 /* CoreData.framework */; };
+		D302C763141327BF00D76733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D302C761141327BF00D76733 /* InfoPlist.strings */; };
+		D302C765141327BF00D76733 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D302C764141327BF00D76733 /* main.m */; };
+		D302C769141327BF00D76733 /* TacticsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D302C768141327BF00D76733 /* TacticsAppDelegate.m */; };
+		D302C76C141327BF00D76733 /* Tactics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D302C76A141327BF00D76733 /* Tactics.xcdatamodeld */; };
+		D302C76F141327BF00D76733 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D302C76D141327BF00D76733 /* MainWindow.xib */; };
+		D302C772141327BF00D76733 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D302C771141327BF00D76733 /* DetailViewController.m */; };
+		D302C775141327BF00D76733 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D302C773141327BF00D76733 /* DetailView.xib */; };
+		D302C778141327BF00D76733 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D302C777141327BF00D76733 /* RootViewController.m */; };
+		D302C780141327BF00D76733 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C77F141327BF00D76733 /* SenTestingKit.framework */; };
+		D302C781141327BF00D76733 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C756141327BF00D76733 /* UIKit.framework */; };
+		D302C782141327BF00D76733 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C758141327BF00D76733 /* Foundation.framework */; };
+		D302C783141327BF00D76733 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C75A141327BF00D76733 /* CoreGraphics.framework */; };
+		D302C784141327BF00D76733 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D302C75C141327BF00D76733 /* CoreData.framework */; };
+		D302C78C141327BF00D76733 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D302C78A141327BF00D76733 /* InfoPlist.strings */; };
+		D302C78E141327BF00D76733 /* TacticsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = D302C78D141327BF00D76733 /* TacticsTests.h */; };
+		D302C790141327BF00D76733 /* TacticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D302C78F141327BF00D76733 /* TacticsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D302C785141327BF00D76733 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D302C749141327BE00D76733 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D302C751141327BE00D76733;
+			remoteInfo = Tactics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D302C752141327BE00D76733 /* Tactics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tactics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D302C756141327BF00D76733 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D302C758141327BF00D76733 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D302C75A141327BF00D76733 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D302C75C141327BF00D76733 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D302C760141327BF00D76733 /* Tactics-Info.plist */ = {isa = PBXFileReference; path = "Tactics-Info.plist"; sourceTree = "<group>"; };
+		D302C762141327BF00D76733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D302C764141327BF00D76733 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D302C766141327BF00D76733 /* Tactics-Prefix.pch */ = {isa = PBXFileReference; path = "Tactics-Prefix.pch"; sourceTree = "<group>"; };
+		D302C767141327BF00D76733 /* TacticsAppDelegate.h */ = {isa = PBXFileReference; path = TacticsAppDelegate.h; sourceTree = "<group>"; };
+		D302C768141327BF00D76733 /* TacticsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TacticsAppDelegate.m; sourceTree = "<group>"; };
+		D302C76B141327BF00D76733 /* Tactics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tactics.xcdatamodel; sourceTree = "<group>"; };
+		D302C76E141327BF00D76733 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		D302C770141327BF00D76733 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		D302C771141327BF00D76733 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D302C774141327BF00D76733 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		D302C776141327BF00D76733 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		D302C777141327BF00D76733 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D302C77E141327BF00D76733 /* TacticsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TacticsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D302C77F141327BF00D76733 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D302C789141327BF00D76733 /* TacticsTests-Info.plist */ = {isa = PBXFileReference; path = "TacticsTests-Info.plist"; sourceTree = "<group>"; };
+		D302C78B141327BF00D76733 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D302C78D141327BF00D76733 /* TacticsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TacticsTests.h; sourceTree = "<group>"; };
+		D302C78F141327BF00D76733 /* TacticsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TacticsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D302C74F141327BE00D76733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D302C757141327BF00D76733 /* UIKit.framework in Frameworks */,
+				D302C759141327BF00D76733 /* Foundation.framework in Frameworks */,
+				D302C75B141327BF00D76733 /* CoreGraphics.framework in Frameworks */,
+				D302C75D141327BF00D76733 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D302C77A141327BF00D76733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D302C780141327BF00D76733 /* SenTestingKit.framework in Frameworks */,
+				D302C781141327BF00D76733 /* UIKit.framework in Frameworks */,
+				D302C782141327BF00D76733 /* Foundation.framework in Frameworks */,
+				D302C783141327BF00D76733 /* CoreGraphics.framework in Frameworks */,
+				D302C784141327BF00D76733 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D302C747141327BE00D76733 = {
+			isa = PBXGroup;
+			children = (
+				D302C75E141327BF00D76733 /* Tactics */,
+				D302C787141327BF00D76733 /* TacticsTests */,
+				D302C755141327BE00D76733 /* Frameworks */,
+				D302C753141327BE00D76733 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D302C753141327BE00D76733 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D302C752141327BE00D76733 /* Tactics.app */,
+				D302C77E141327BF00D76733 /* TacticsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D302C755141327BE00D76733 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D302C756141327BF00D76733 /* UIKit.framework */,
+				D302C758141327BF00D76733 /* Foundation.framework */,
+				D302C75A141327BF00D76733 /* CoreGraphics.framework */,
+				D302C75C141327BF00D76733 /* CoreData.framework */,
+				D302C77F141327BF00D76733 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D302C75E141327BF00D76733 /* Tactics */ = {
+			isa = PBXGroup;
+			children = (
+				D302C767141327BF00D76733 /* TacticsAppDelegate.h */,
+				D302C768141327BF00D76733 /* TacticsAppDelegate.m */,
+				D302C76D141327BF00D76733 /* MainWindow.xib */,
+				D302C770141327BF00D76733 /* DetailViewController.h */,
+				D302C771141327BF00D76733 /* DetailViewController.m */,
+				D302C773141327BF00D76733 /* DetailView.xib */,
+				D302C776141327BF00D76733 /* RootViewController.h */,
+				D302C777141327BF00D76733 /* RootViewController.m */,
+				D302C76A141327BF00D76733 /* Tactics.xcdatamodeld */,
+				D302C75F141327BF00D76733 /* Supporting Files */,
+			);
+			path = Tactics;
+			sourceTree = "<group>";
+		};
+		D302C75F141327BF00D76733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D302C760141327BF00D76733 /* Tactics-Info.plist */,
+				D302C761141327BF00D76733 /* InfoPlist.strings */,
+				D302C764141327BF00D76733 /* main.m */,
+				D302C766141327BF00D76733 /* Tactics-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D302C787141327BF00D76733 /* TacticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D302C78D141327BF00D76733 /* TacticsTests.h */,
+				D302C78F141327BF00D76733 /* TacticsTests.m */,
+				D302C788141327BF00D76733 /* Supporting Files */,
+			);
+			path = TacticsTests;
+			sourceTree = "<group>";
+		};
+		D302C788141327BF00D76733 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D302C789141327BF00D76733 /* TacticsTests-Info.plist */,
+				D302C78A141327BF00D76733 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D302C751141327BE00D76733 /* Tactics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D302C793141327BF00D76733 /* Build configuration list for PBXNativeTarget "Tactics" */;
+			buildPhases = (
+				D302C74E141327BE00D76733 /* Sources */,
+				D302C74F141327BE00D76733 /* Frameworks */,
+				D302C750141327BE00D76733 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tactics;
+			productName = Tactics;
+			productReference = D302C752141327BE00D76733 /* Tactics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D302C77D141327BF00D76733 /* TacticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D302C796141327BF00D76733 /* Build configuration list for PBXNativeTarget "TacticsTests" */;
+			buildPhases = (
+				D302C779141327BF00D76733 /* Sources */,
+				D302C77A141327BF00D76733 /* Frameworks */,
+				D302C77B141327BF00D76733 /* Resources */,
+				D302C77C141327BF00D76733 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D302C786141327BF00D76733 /* PBXTargetDependency */,
+			);
+			name = TacticsTests;
+			productName = TacticsTests;
+			productReference = D302C77E141327BF00D76733 /* TacticsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D302C749141327BE00D76733 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D302C74C141327BE00D76733 /* Build configuration list for PBXProject "Tactics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D302C747141327BE00D76733;
+			productRefGroup = D302C753141327BE00D76733 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D302C751141327BE00D76733 /* Tactics */,
+				D302C77D141327BF00D76733 /* TacticsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D302C750141327BE00D76733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D302C763141327BF00D76733 /* InfoPlist.strings in Resources */,
+				D302C76F141327BF00D76733 /* MainWindow.xib in Resources */,
+				D302C775141327BF00D76733 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D302C77B141327BF00D76733 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D302C78C141327BF00D76733 /* InfoPlist.strings in Resources */,
+				D302C78E141327BF00D76733 /* TacticsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D302C77C141327BF00D76733 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D302C74E141327BE00D76733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D302C765141327BF00D76733 /* main.m in Sources */,
+				D302C769141327BF00D76733 /* TacticsAppDelegate.m in Sources */,
+				D302C76C141327BF00D76733 /* Tactics.xcdatamodeld in Sources */,
+				D302C772141327BF00D76733 /* DetailViewController.m in Sources */,
+				D302C778141327BF00D76733 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D302C779141327BF00D76733 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D302C790141327BF00D76733 /* TacticsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D302C786141327BF00D76733 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D302C751141327BE00D76733 /* Tactics */;
+			targetProxy = D302C785141327BF00D76733 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D302C761141327BF00D76733 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D302C762141327BF00D76733 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D302C76D141327BF00D76733 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D302C76E141327BF00D76733 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		D302C773141327BF00D76733 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D302C774141327BF00D76733 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		D302C78A141327BF00D76733 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D302C78B141327BF00D76733 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D302C791141327BF00D76733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D302C792141327BF00D76733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D302C794141327BF00D76733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tactics/Tactics-Prefix.pch";
+				INFOPLIST_FILE = "Tactics/Tactics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D302C795141327BF00D76733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tactics/Tactics-Prefix.pch";
+				INFOPLIST_FILE = "Tactics/Tactics-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D302C797141327BF00D76733 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tactics.app/Tactics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tactics/Tactics-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TacticsTests/TacticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D302C798141327BF00D76733 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tactics.app/Tactics";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tactics/Tactics-Prefix.pch";
+				INFOPLIST_FILE = "TacticsTests/TacticsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D302C74C141327BE00D76733 /* Build configuration list for PBXProject "Tactics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D302C791141327BF00D76733 /* Debug */,
+				D302C792141327BF00D76733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D302C793141327BF00D76733 /* Build configuration list for PBXNativeTarget "Tactics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D302C794141327BF00D76733 /* Debug */,
+				D302C795141327BF00D76733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D302C796141327BF00D76733 /* Build configuration list for PBXNativeTarget "TacticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D302C797141327BF00D76733 /* Debug */,
+				D302C798141327BF00D76733 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D302C76A141327BF00D76733 /* Tactics.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D302C76B141327BF00D76733 /* Tactics.xcdatamodel */,
+			);
+			currentVersion = D302C76B141327BF00D76733 /* Tactics.xcdatamodel */;
+			path = Tactics.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D302C749141327BE00D76733 /* Project object */;
+}
